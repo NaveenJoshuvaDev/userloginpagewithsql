@@ -1,0 +1,59 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.bg {
+  background-image: url("background-image.jpg"); /* Replace with your background image */
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.btn-google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+.btn-google:hover {
+  background-color: #c23321;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 2rem;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
